@@ -1,0 +1,29 @@
+html {
+ font: normal 100%/1.5 Sigmar One;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+header {
+  margin: 0;
+  text-align: center;
+  background-color: #ffe500
+}
+
+h1 {
+  font-size: 3rem;
+  color: #b20953
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
