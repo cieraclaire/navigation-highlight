@@ -1,64 +1,77 @@
 html {
- font: normal 100%/1.5 Sigmar One;
+  font: normal 100%/1.5 Sigmar One;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 header {
   margin: 0;
+  padding: 0;
   text-align: center;
-  background-color: #ffe500
+  background-color: #ffe500;
 }
 
 h1 {
   margin: 0;
   font-size: 3rem;
-  color: #b20953
+  color: #b20953;
 }
 
 .nav {
   margin: 0;
-  padding: 0.75rem;
+  padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
 .nav li {
   display: inline-block;
-  font-family: 'Georgia', sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .nav a {
   color: #fff;
   display: inline-block;
+  padding: 0.75rem;
+  background-color: #b2a212;
+  border-radius: 0.75rem;
   text-decoration: none;
   font-size: 1.125rem;
-  border-radius: 0.75rem;
-  padding: 0.75rem;
-  background-color: #b2a212
 }
 
 .nav a:hover {
-  background-color: #b20953
+  background-color: #b20953;
+}
+
+.nav .current {
+  background-color: #cc1465;
 }
 
 h2 {
   font-size: 1.875rem;
   text-align: left;
   background-color: #fff;
-  color: #b20953
+  color: #b20953;
 }
 
 p {
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
 }
 
 footer {
   text-align: center;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   padding: 1.125rem;
-  background-color: #ffe500
+  background-color: #ffe500;
 
+}
+
+img {
+  width: 400px;
 }
