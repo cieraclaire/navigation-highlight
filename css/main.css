@@ -13,6 +13,7 @@ header {
 }
 
 h1 {
+  margin: 0;
   font-size: 3rem;
   color: #b20953
 }
@@ -44,5 +45,20 @@ h1 {
 }
 
 h2 {
+  font-size: 1.875rem;
+  text-align: left;
+  background-color: #fff;
   color: #b20953
+}
+
+p {
+  font-family: 'Georgia', serif;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  padding: 1.125rem;
+  background-color: #ffe500
+
 }
