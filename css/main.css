@@ -19,11 +19,30 @@ h1 {
 
 .nav {
   margin: 0;
-  padding: 0;
+  padding: 0.75rem;
   list-style-type: none;
   text-align: center;
 }
 
 .nav li {
   display: inline-block;
+  font-family: 'Georgia', sans-serif;
+}
+
+.nav a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  background-color: #b2a212
+}
+
+.nav a:hover {
+  background-color: #b20953
+}
+
+h2 {
+  color: #b20953
 }
